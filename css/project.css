@@ -1,0 +1,73 @@
+/* ============================ main project ===================== */
+.main-project {
+  height: 700px;
+  
+}
+.main-project-flex {
+  display: flex;
+  height: 700px;
+}
+.main-project-writing {
+  width: 51%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f6f6f6;
+}
+.main-project-writing div {
+  width: 60%;
+  margin: auto;
+}
+.main-project-writing h1 {
+  margin-bottom: 20px;
+}
+.main-project-writing p {
+  margin-bottom: 25px;
+  width: 70%;
+}
+.main-project-writing  strong {
+  padding: 0 10px 0 0;
+}
+.main-project-img {
+  width: 49%;
+  background-color: #e6e6e6;
+  height: 700px;
+  background: url(../img/light-breakfast.jpg);
+  background-size: cover;
+}
+.next-project {
+  height: 150px;
+}
+.next-project-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+}
+.next-project-flex p {
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  color: black;
+}
+.next-project-flex p:hover {
+  color: var(--text-clr);
+}
+.next-project-flex span {
+  margin: 0 10px;
+}
+.square {
+  width: 20px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.square1 {
+  width: 8px;
+  height: 8px;
+  background-color: black;
+}

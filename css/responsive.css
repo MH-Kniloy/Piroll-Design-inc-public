@@ -1,0 +1,692 @@
+/* ======================= for 1200px ========================= */
+@media (max-width: 1200px) {
+  .skill {
+    height: 1000px;
+  }
+  .skill-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .skill-writing {
+    width: 100%;
+    height: 400px;
+  }
+  .skill-writing h2 {
+    width: 100%;
+    text-align: center;
+  }
+  .skill-img {
+    width: 100%;
+    height: 600px;
+  }
+  .gallery {
+    height: 2100px;
+  }
+  .gallery-img {
+    width: 50%;
+    height: 500px;
+  }
+  .gallery-img img {
+    height: 500px;
+  }
+  .process {
+    height: 900px;
+  }
+  .process-flex {
+    height: 900px;
+  }
+  .video {
+    width: 100%;
+    height: 500px;
+  }
+  /* ======================= for work page ========================= */
+  .gallery2 {
+    height: 3000px;
+  }
+  /* ======================= for project page ========================= */
+  .main-project {
+    height: 500px;
+    
+  }
+  .main-project-flex {
+    display: flex;
+    height: 500px;
+  }
+  .main-project-writing {
+    height: 500px;
+  }
+  .main-project-writing p {
+    width: 100%;
+  }
+  .main-project-img {
+    height: 500px; 
+  }
+  .next-project {
+    height: 100px;
+  }
+  .next-project-flex {
+    height: 100px;
+  }
+  /* ======================= for contact page ========================= */
+  .form {
+    text-align: center;
+  }
+  #title {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+    padding: 10px 15px 10px 15px;
+  }
+  input[type="email"] {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+  }
+  input[type="submit"] {
+    width: 80%;
+    text-align: center;
+  }
+  #name {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+  }
+  textarea {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* ====================== Map =================== */
+  .map {
+    height: 600px;
+    background-color: var(--background-gray);
+  }
+  iframe {
+    filter: grayscale(100%);
+    height: 500px;
+  }
+  .map-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* ======================= for 991px ========================= */
+@media (max-width: 991px) {
+  .ui-design{
+    width: 80%;
+  }
+  .status-bar1 {
+    width: 100%;
+  }
+  .status-bar1 div {
+    width: 75%;
+  }
+  .status-bar2 {
+    width: 100%;
+  }
+  .status-bar2 div {
+    width: 90%;
+  }
+  .status-bar3 {
+    width: 100%;
+  }
+  .status-bar3 div {
+    width: 65%;
+  }
+  /* ============================ about page =========================== */
+  .about2-writing div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about2-writing p {
+    width: 70%;
+  }
+   /* ======================= for project page ========================= */
+   .main-project {
+    height: 1000px;
+    
+  }
+  .main-project-flex {
+    display: flex;
+    height: 1000px;
+    flex-wrap: wrap;
+  }
+  .main-project-writing {
+    height: 500px;
+    width: 100%;
+  }
+  .main-project-writing p {
+    width: 100%;
+  }
+  .main-project-img {
+    height: 500px;
+    width: 100%; 
+  }
+  
+}
+/* ======================= for 768px ========================= */
+@media (max-width: 768px) {
+  .empty {
+    display: none;
+  }
+  .heading-writing {
+    width: 100%;
+  }
+  .about-flex p {
+    width: 100%;
+  }
+  .work {
+    height: 350px;
+  }
+  .work-flex {
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .work-flex h3 {
+    margin-left: 0px;
+  }
+  .work-flex p {
+    margin-left: 0px;
+  }
+  .work-img {
+    display: inline;
+  }
+  .case {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .clock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+  }
+  .star {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+  }
+  .love {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+  }
+  .gallery {
+    height: 1480px;
+  }
+  .gallery-img {
+    height: 350px;
+  }
+  .gallery-img img {
+    height: 350px;
+  }
+  .process {
+    height: 750px;
+  }
+  .process-flex {
+    height: 750px;
+  }
+  .process-flex p {
+    width: 100%;
+  }
+  .video {
+    width: 100%;
+    height: 400px;
+  }
+  .services {
+    height: 1000px;
+    display: block;
+  }
+  .service-flex {
+    justify-content: space-between;
+    height: 1000px;
+  }
+  .ui-ux-design {
+    width: 50%;
+  }
+  .ui-ux-design p {
+    width: 80%;
+  }
+  .test-flex {
+    height: 400px;
+  }
+  .test-writing h3 {
+    width: 90%;
+  }
+  footer {
+    height: 400PX;
+  }
+  .footer-flex {
+    height: 400px;
+    flex-wrap: wrap;
+  }
+  .footer-credit {
+    width: 50%;
+  }
+  .footer-email {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .footer-menu {
+    width: 40%;
+  }
+  .footer-social  {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  /* ============================ about page =========================== */
+  .amelia p {
+    width: 50%;
+  }
+  .about2 {
+    height: 900px;
+  }
+  .about2-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .about2-img {
+    width: 100%;
+    height: 500px;
+  }
+  .about2-writing {
+    width: 100%;
+    height: 400px;  
+  }
+  .about2-writing p {
+    width: 80%;
+    text-align: center;
+  }
+  /* ======================= for work page ========================= */
+  .gallery2 {
+    height: 2100px;
+  }
+  .graphic-designer p {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ .graphic-designer h1 {
+  text-align: center;
+}
+ /* ======================= for contact page ========================= */
+ .contact-info {
+  height: 1000px;
+}
+.contact-flex {
+  flex-direction: column;
+  justify-content: center;
+  height: 1000px;
+}
+ .adress {
+  width: 100%;
+  text-align: center;
+}
+.adress h2{
+  margin-bottom: 20px;
+}
+.adress p {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.form {
+  width: 100%;
+  text-align: center;
+}
+#title {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
+  padding: 10px 15px 10px 15px;
+}
+input[type="email"] {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
+}
+input[type="submit"] {
+  width: 80%;
+  text-align: center;
+}
+#name {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
+}
+textarea {
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+/* ====================== Map =================== */
+.map {
+  height: 500px;
+}
+iframe {
+  height: 400px;
+}
+
+}
+/* ======================= for 576px ========================= */
+@media (max-width: 576px) {
+  .header {
+    height: 700px;
+  }
+  .nav-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  flex-direction: column;
+}
+
+.nav ul li {
+  list-style: none;
+  margin-right: 0px;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading-writing {
+  text-align: center;
+  height: 350px;
+}
+.heading-writing p {
+  width: 100%;
+}
+.heading-writing a {
+  width: 100%;
+}
+.gallery {
+  height: 1080px;
+}
+.gallery-img {
+  height: 250px;
+}
+.gallery-img img {
+  height: 250px;
+}
+.process {
+  height: 550px;
+}
+.process-flex {
+  height: 550px;
+}
+.video {
+  height: 250px;
+}
+.company {
+  height: 350px;
+}
+.company-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  flex-wrap: wrap;
+}
+.company-img-1 {
+  width: 50%;
+  text-align: center;
+}
+.company-img-2 {
+  width: 50%;
+  text-align: center;
+}
+.company-img-3 {
+  width: 100%;
+  text-align: center;
+}
+.company-img-4 {
+  width: 50%;
+  text-align: center;
+}
+.company-img-5 {
+  width: 50%;
+  text-align: center;
+}
+.contact {
+  height: 750px;
+}
+.contact-flex-2 {
+  height: 700px;
+}
+.contact-writing {
+  text-align: center;
+}
+.contact-writing p {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.contact-writing h2 {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.contact-form {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+.form {
+  width: 100%;
+  height: 500px;
+}
+#title {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
+  padding: 10px 15px 10px 15px;
+}
+input[type="email"] {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
+}
+input[type="submit"] {
+  width: 80%;
+}
+#name {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
+}
+textarea {
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.footer-credit {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  text-align: center;
+}
+.footer-email {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+ /* ============================ about page =========================== */
+ .project-flex p {
+  width: 80%;
+}
+.amelia p {
+  width: 80%;
+}
+  /* ======================= for work page ========================= */
+  .gallery2 {
+    height: 1500px;
+  }
+  .graphic-designer p {
+    width: 80%;
+ }
+ /* ======================= for project page ========================= */
+ .main-project {
+  height: 1150px;
+  
+}
+.main-project-flex {
+  display: flex;
+  height: 1150px;
+  flex-wrap: wrap;
+}
+.main-project-writing {
+  height: 700px;
+  width: 100%;
+  text-align: center;
+}
+.main-project-writing p {
+  width: 100%;
+}
+.main-project-img {
+  height: 450px;
+  width: 100%; 
+}
+.next-project {
+  height: 200px;
+}
+.next-project-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+ /* ======================= for contact page ========================= */
+ .contact-header {
+  height: 280px;
+}
+.adress p {
+  width: 100%;
+}
+
+/* ====================== Map =================== */
+.map {
+  height: 400px;
+}
+iframe {
+  height: 300px;
+}
+}
+/* ======================= for 400px ========================= */
+@media (max-width: 400px) {
+  .work {
+    height: 600px;
+  }
+  .work-flex {
+    height: 600px;
+  }
+  .case {
+    width: 100%;
+  }
+  
+  .clock {
+    width: 100%;
+  }
+  .star {
+    width: 100%;
+  }
+  .love {
+    width: 100%;
+  }
+  .gallery {
+    height: 2880px;
+  }
+  .gallery-img {
+    width: 100%;
+    height: 350px;
+  }
+  .gallery-img img {
+    height: 350px;
+  }
+  .video {
+    height: 180px;
+  }
+  .services {
+    height: 1550px;
+    display: block;
+  }
+  .service-flex {
+    justify-content: space-between;
+    height: 1550px;
+  }
+  .ui-ux-design {
+    width: 100%;
+  }
+  .ui-ux-design p {
+    width: 100%;
+  }
+  .process-flex h2 {
+    text-align: center;
+  }
+  /* ======================= for work page ========================= */
+  .gallery2 {
+    height: 4200px;
+  }
+  /* ======================= for contact page ========================= */
+  #title {
+    width: 90%;
+  }
+  input[type="email"] {
+    width: 90%;
+  }
+  input[type="submit"] {
+    width: 90%;
+  }
+  #name {
+    width: 90%;
+  }
+  textarea {
+    width: 90%;
+  }
+
+/* ====================== Map =================== */
+.map {
+  height: 300px;
+}
+iframe {
+  height: 200px;
+}
+}

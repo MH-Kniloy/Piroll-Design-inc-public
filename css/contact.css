@@ -1,0 +1,38 @@
+.contact-header {
+  background-color: var(--background-white);
+  height: 80px;
+}
+nav ul li .active {
+  color: var(--btn-clr);
+}
+/* ================= contact info ================== */
+.contact-info {
+  background-color: var(--background-gray);
+  height: 700px;
+}
+.contact-flex {
+  display: flex;
+  align-items: center;
+  height: 700px;
+}
+.adress {
+  width: 50%;
+  padding-bottom: 30px;
+  
+}
+.adress h2{
+  margin-bottom: 20px;
+}
+.adress p {
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+/* ====================== Map =================== */
+.map {
+  height: 600px;
+  background-color: var(--background-gray);
+}
+iframe {
+  filter: grayscale(100%);
+}
